@@ -2,8 +2,41 @@
   "filme": [
     {
       "id": 1,
-      "nome": "Teste",
-      "ano": "2000"
+      "nome": "Velozes e Furiosos",
+      "ano": "2000",
+      "genero": "Ação",
+      "status": "Já vi",
+      "nota": 10
+    },
+    {
+      "id": 2,
+      "nome": "Hereditário",
+      "ano": "2018",
+      "genero": "Terror/Suspense",
+      "status": "Já Vi",
+      "nota": "10"
+    },
+    {
+      "id": 5,
+      "nome": "Morbius",
+      "ano": "2022",
+      "genero": "Ação/Quadrinhos",
+      "status": "Já Vi",
+      "nota": "5,5"
+    },
+    {
+      "id": 6,
+      "nome": "Batman",
+      "ano": "2022",
+      "genero": "Ação",
+      "status": "Irei Ver",
+      "nota": "10"
+    }
+  ],
+  "genero": [
+    {
+      "id": 1,
+      "nome": "Ação"
     }
   ]
 }
