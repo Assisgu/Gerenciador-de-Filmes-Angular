@@ -12,7 +12,8 @@ export class FilmeComponent implements OnInit {
   filmes = new Array<Filme>()
   filme?: Filme;
   editando = false;
-  colunas = ['nome', 'ano', 'genero', 'nota', 'status', 'acoes'];
+  // colunas = ['nome', 'ano', 'genero', 'nota', 'status', 'acoes'];
+    colunas = ['nome', 'ano', 'acoes'];
 
   constructor(private FilmeService: FilmeService) { }
 
