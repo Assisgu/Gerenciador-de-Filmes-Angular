@@ -18,13 +18,15 @@ import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
 import {MatTableModule} from '@angular/material/table';
 import {MatSelectModule} from '@angular/material/select';
+import { SobreComponent } from './views/sobre/sobre.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     FilmeComponent,
-    GeneroComponent
+    GeneroComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,

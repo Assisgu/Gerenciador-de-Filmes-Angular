@@ -69,19 +69,56 @@
   </mat-form-field>
   <br>
   <mat-form-field class="form-field">
-    <mat-label> Gênero</mat-label>
-    <input matInput placeholder="Ex: Ação" [(ngModel)]="filme.genero">
+    <mat-label>Gênero</mat-label>
+    <mat-select [(ngModel)]="filme.genero" multiple>
+      <mat-option value="Ação">Ação</mat-option>
+      <mat-option value="Animação">Animação</mat-option>
+      <mat-option value="Aventura">Aventura</mat-option>
+      <mat-option value="Biografia">Biografia</mat-option>
+      <mat-option value="Comédia">Comédia</mat-option>
+      <mat-option value="Faroeste">Faroeste</mat-option>
+      <mat-option value="Clássicos">Clássicos</mat-option>
+      <mat-option value="Crime">Crime</mat-option>
+      <mat-option value="Drama">Drama</mat-option>
+      <mat-option value="Documentário">Documentário</mat-option>
+      <mat-option value="Esporte">Documentário</mat-option>
+      <mat-option value="Ficção Científica">Ficção Científica</mat-option>
+      <mat-option value="Fantasia">Fantasia</mat-option>
+      <mat-option value="Faroeste">Faroeste</mat-option>
+      <mat-option value="Família">Família</mat-option>
+      <mat-option value="Guerra">Guerra</mat-option>
+      <mat-option value="História">História</mat-option>
+      <mat-option value="Independentes">Independentes</mat-option>
+      <mat-option value="Infantil">Infantil</mat-option>
+      <mat-option value="Suspense">Suspense</mat-option>
+      <mat-option value="Musical">Musical</mat-option>
+      <mat-option value="Mistério">Mistério</mat-option>
+      <mat-option value="Terror/Horror">Terror/Horror</mat-option>
+      <mat-option value="Romance">Romance</mat-option>
+    </mat-select>
   </mat-form-field>
   <br>
   <mat-form-field class="form-field">
-    <mat-label> Nota</mat-label>
-    <input matInput placeholder="Digite sua nota do filme" [(ngModel)]="filme.nota">
+    <mat-label>Nota</mat-label>
+    <mat-select [(ngModel)]="filme.nota">
+      <mat-option value="Não Informada">Não Informada</mat-option>
+      <mat-option value="1">1</mat-option>
+      <mat-option value="2">2</mat-option>
+      <mat-option value="3">3</mat-option>
+      <mat-option value="4">4</mat-option>
+      <mat-option value="5">5</mat-option>
+      <mat-option value="6">6</mat-option>
+      <mat-option value="7">7</mat-option>
+      <mat-option value="8">8</mat-option>
+      <mat-option value="9">9</mat-option>
+      <mat-option value="10">10</mat-option>
+    </mat-select>
   </mat-form-field>
   <br>
   <mat-form-field class="form-field">
     <mat-label>Status</mat-label>
     <mat-select [(ngModel)]="filme.status">
-      <mat-option value="Irei Ver">Irei Ver</mat-option>
+      <mat-option value="Quero Ver">Quero Ver</mat-option>
       <mat-option value="Vendo">Vendo</mat-option>
       <mat-option value="Já Vi">Já Vi</mat-option>
     </mat-select>
